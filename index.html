@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCGroup principal page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"/>
+</head>
+<body>
+    <header>
+        <div class="headerContent">
+            <div class="headerTitleContainer">
+                <div class="logoContainer">
+                    <a href="#">
+                         <img src="./img/LOGOS/svg/Logo (1).svg" alt="">
+                     </a>
+                </div>
+            </div>
+            <button class="headerIconContainer">
+                <div>
+                    <i class="iconoir-half-moon"></i>
+                </div>
+            </button>
+            <div class="headerLowerPart">
+                <nav>
+                    <div class="wrapper">
+                        <input type="radio" name="slider" id="menu-btn"> 
+                        <input type="radio" name="slider" id="close-btn">
+                        <ul class="nav-links">
+                            <label for="close-btn" class="btn close-btn"><i class="iconoir-xmark"></i></label>
+                            <li>
+                                <a href="#" class="desktop-item">Home <i class="iconoir-nav-arrow-down"></i></a>
+                                <input type="checkbox" id="showDrop">
+                                <label for="showDrop" class="mobile-item">Home <i class="iconoir-nav-arrow-down"></i></label>
+                                <ul class="drop-menu">
+                                    <li><a href="#">Mundo Hogar</a></li>
+                                    <li><a href="#">Muebles</a></li>
+                                    <li><a href="#">Decoración</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="desktop-item">Tecnología <i class="iconoir-nav-arrow-down"></i></a>
+                                <input type="checkbox" id="showDrop2">
+                                <label for="showDrop" class="mobile-item">Tecnología <i class="iconoir-nav-arrow-down"></i></label>
+                                <ul class="drop-menu">
+                                    <li><a href="#">Smartwatches</a></li>
+                                    <li><a href="#">Audifonos</a></li>
+                                    <li><a href="#">Gamer</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="desktop-item">Deporte<i class="iconoir-nav-arrow-down"></i></a>
+                                <input type="checkbox" id="showDrop">
+                                <label for="showDrop" class="mobile-item">Deporte<i class="iconoir-nav-arrow-down"></i></label>
+                                <ul class="drop-menu">
+                                    <li><a href="#">Ropa</a></li>
+                                    <li><a href="#">Accesorios</a></li>
+                                    <li><a href="#">Training</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="desktop-item">Electrodomésticos<i class="iconoir-nav-arrow-down"></i></a>
+                                <input type="checkbox" id="showDrop">
+                                <label for="showDrop" class="mobile-item">Electrodomésticos<i class="iconoir-nav-arrow-down"></i></label>
+                                <ul class="drop-menu">
+                                    <li><a href="#">Cocina</a></li>
+                                    <li><a href="#">Pequeños electrodomesticos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <label for="menu-btn" class="btn menu-btn"><i class="iconoir-align-justify"></i></label>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="container">
+            <div id="slider-container">
+                <ul class="images-container">
+                    <li>
+                        <img src="img/Banners Principales/DELIVERY.png" class="imgBannerCarrousel0">
+                    </li>
+                    <li>
+                        <img src="img/Banners Principales/NUEVOS INGRESOS.png" class="imgBannerCarrousel1">
+                    </li>
+                    <li>
+                        <img src="img/Banners Principales/PRODUCTOS NAVIDEÑOS 2.png" class="imgBannerCarrousel2">
+                    </li>
+                </ul>
+                <i class="arrow a-left"></i>
+                <i class="arrow a-right"></i>
+                <div class="bullets-container"></div>
+            </div>
+        </section>
+        <section>
+            <article>
+                <img src="img/Imágenes/Cuadros 1.png" alt="">
+            </article>
+            <article>
+                <img src="img/Imágenes/Cuadros 2.png" alt="">
+            </article>
+            <article>
+                <img src="img/Imágenes/Cuadros 3.png" alt="">
+            </article>
+            <article>
+                <img src="img/Imágenes/Cuadros 4.png" alt="">
+            </article>
+            <div class="bullets-container"></div>
+        </section>
+    </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
